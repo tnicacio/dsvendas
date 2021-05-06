@@ -15,6 +15,7 @@
 	<description>Projeto desenvolvido na Semana Spring React do DevSuperior</description>
 	<properties>
 		<java.version>11</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
 		<dependency>
