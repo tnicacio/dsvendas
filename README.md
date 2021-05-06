@@ -125,11 +125,11 @@ e de [rosca](https://github.com/tnicacio/dsvendas/blob/main/frontend/src/compone
     - Realização do seed do banco
 
 ## :computer: Tecnologias Utilizadas
-- [ReactJS](https://pt-br.reactjs.org/), para o desenvolvimento frontend.
-- [Spring Boot](https://spring.io/projects/spring-boot), para o backend.
+- [ReactJS](https://pt-br.reactjs.org/)
+- [Spring Boot](https://spring.io/projects/spring-boot)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Bootstrap](https://getbootstrap.com/)
-- [Netlify](https://www.netlify.com/), em que fez-se o deploy da aplicação.
+- [Netlify](https://www.netlify.com/)
 - [Heroku](http://heroku.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Spring Tool Suite 4](https://spring.io/tools)
