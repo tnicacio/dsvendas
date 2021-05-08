@@ -21,8 +21,15 @@ export const DonutChart = () => {
       const response = await axios.get(`${BASE_URL}/sales/amount-by-seller`);
       const saleSumData = response?.data as SaleSum[];
 
-      const labels = saleSumData.map((row) => row.sellerName);
-      const series = saleSumData.map((row) => row.sum);
+      const saleSumDataSortedBySellerName = saleSumData.sort((a, b) =>
+        a.sellerName.localeCompare(b.sellerName, 'pt-BR', {
+          ignorePunctuation: true,
+          sensitivity: 'base',
+        })
+      );
+
+      const labels = saleSumDataSortedBySellerName.map((row) => row.sellerName);
+      const series = saleSumDataSortedBySellerName.map((row) => row.sum);
 
       setChartData({ labels, series });
     };
