@@ -38,7 +38,7 @@ export const DataTable = () => {
   return (
     <>
       <Pagination page={page} onPageChange={changePage} />
-      <div className="table-responsive">
+      <div className="table-responsive pb-3">
         <table className="table table-striped table-sm">
           <thead>
             <tr>
