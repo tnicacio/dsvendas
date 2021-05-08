@@ -124,6 +124,9 @@ e de [rosca](https://github.com/tnicacio/dsvendas/blob/main/frontend/src/compone
     - Conexão ao banco via pgAdmin
     - Realização do seed do banco
 
+### :calendar: 07/mai/2021 - Aula 3: O mapa da carreira
+  detalhes em desenvolvimento...
+
 ## :computer: Tecnologias Utilizadas
 - [ReactJS](https://pt-br.reactjs.org/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
@@ -131,6 +134,3 @@ e de [rosca](https://github.com/tnicacio/dsvendas/blob/main/frontend/src/compone
 - [Bootstrap](https://getbootstrap.com/)
 - [Netlify](https://www.netlify.com/)
 - [Heroku](http://heroku.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Spring Tool Suite 4](https://spring.io/tools)
-- [pgAdmin 4](https://www.pgadmin.org/)
