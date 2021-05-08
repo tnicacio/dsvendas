@@ -1,7 +1,6 @@
 # ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) DSVendas
 > Projeto desenvolvido durante a Semana Spring React, de 3 a 9 de maio de 2021, da [DevSuperior](https://devsuperior.com.br). <br/>
 > Pode-se visualizar a aplicação atual em: https://dsvendas-tnicacio.netlify.app/ <br/>
-> Back-end: https://sds3-tnicacio.herokuapp.com
 
 ## O  que foi visto durante essa semana?
 
@@ -17,6 +16,9 @@ e de [rosca](https://github.com/tnicacio/dsvendas/blob/main/frontend/src/compone
 
 ### :calendar: 05/mai/2021 - Aula 2: Aprofundando na prática
 - Implementação do back-end
+
+  https://sds3-tnicacio.herokuapp.com 
+  
   - Modelo de domínio em nível conceitual
     
     ![Modelo conceitual](https://user-images.githubusercontent.com/50798315/117371722-bf26f800-ae9e-11eb-8df1-6b64907702d0.png)
