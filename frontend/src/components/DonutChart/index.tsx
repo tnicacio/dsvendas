@@ -11,20 +11,20 @@ type ChartData = {
 };
 
 export const DonutChart = () => {
-  const [chartData, setChartData] = useState({
+  const [chartData, setChartData] = useState<ChartData>({
     labels: [],
     series: [],
-  } as ChartData);
+  });
 
   useEffect(() => {
     const loadChartData = async () => {
       const response = await axios.get(`${BASE_URL}/sales/amount-by-seller`);
       const saleSumData = response?.data as SaleSum[];
 
-      const dataLabels = saleSumData.map((row) => row.sellerName);
-      const dataSeries = saleSumData.map((row) => row.sum);
+      const labels = saleSumData.map((row) => row.sellerName);
+      const series = saleSumData.map((row) => row.sum);
 
-      setChartData({ labels: [...dataLabels], series: [...dataSeries] });
+      setChartData({ labels, series });
     };
     loadChartData();
   }, []);
